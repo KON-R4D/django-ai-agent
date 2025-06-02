@@ -9,6 +9,7 @@ User = settings.AUTH_USER_MODEL # -> "auth.User"
 # ORM
 class Document(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
+    # owner_id = models.IntegerField() -> user.id
     title = models.CharField(default="Title")
     content = models.TextField(blank=True, null=True)
     active = models.BooleanField(default=True)
