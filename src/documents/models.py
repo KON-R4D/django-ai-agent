@@ -16,6 +16,9 @@ class Document(models.Model):
     created_at = models.DateTimeField(auto_now_add=True) # db auto update this field to when it's created
     updated_at  = models.DateTimeField(auto_now=True) # db auto update this field to when it's updated
 
+    def __str__(self):
+        return f"{self.title}"
+
     def save(self, *args, **kwargs):
         if self.active and self.active_at is None:
             self.active_at = timezone.now()
