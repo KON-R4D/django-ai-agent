@@ -198,9 +198,9 @@ def delete_document(document_id:int, config:RunnableConfig):
     except:
         raise Exception("Invalid request for a document detail, try again")
     
-    has_object_perms = async_to_sync(permit.check)(f"{user_id}", "delete", f"document:{obj.id}")
-    if not has_object_perms:
-        raise Exception("You do not have permission to delete individual documents.")
+    # has_object_perms = async_to_sync(permit.check)(f"{user_id}", "delete", f"document:{obj.id}")
+    # if not has_object_perms:
+    #     raise Exception("You do not have permission to delete individual documents.")
     obj.delete()
     response_data =  {"message": "success"}
     return response_data
