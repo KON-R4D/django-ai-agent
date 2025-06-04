@@ -169,7 +169,7 @@ def delete_document(document_id:int, config:RunnableConfig):
     if user_id is None:
         raise Exception("Invalid request for user.")
     try:
-        obj = Document.objects.get(id=document_id, owner_id=user_id, active=True)
+        obj = Document.objects.get(id=document_id, active=True)
     except Document.DoesNotExist:
         raise Exception("Document not found, try again")
     except:
