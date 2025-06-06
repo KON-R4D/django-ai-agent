@@ -1,6 +1,7 @@
+[![Video Thumbnail](https://img.youtube.com/vi/rir9B0ZShug/maxresdefault.jpg)](https://youtu.be/rir9B0ZShug)
+
 # Build an AI Agent with Django, LangGraph, and Permit
 
-[![Video Thumbnail](https://img.youtube.com/vi/rir9B0ZShug/0.jpg)](https://youtu.be/rir9B0ZShug)
 
 [Watch now on YouTube](https://youtu.be/rir9B0ZShug)
 
