@@ -1,55 +1,49 @@
-[![Video Thumbnail](https://img.youtube.com/vi/rir9B0ZShug/maxresdefault.jpg)](https://youtu.be/rir9B0ZShug)
+# Build an AI Agent with Django, LangGraph, and Permit.
 
-# Build an AI Agent with Django, LangGraph, and Permit
+Django has the data. LangGraph coordinates the AI Agents. Permit gives us the guardrails to ensure data is safe.
 
+Build AI Agents with Django, LangGraph, and Permit so you can:
 
-[Watch now on YouTube](https://youtu.be/rir9B0ZShug)
+✅ Save user-data with minimal overhead.
 
-Django has the data. LangGraph coordinates the Ai Agents. Permit gives us the guardrails to ensure data is safe.
+✅ Talk to the data you or your users care about.
 
-In this course, I'll take you step-by-step so you can build Ai Agents with Django, LangGraph, and Permit so you can:
-
-✅ Save user-data with minimal overhead
-
-✅ Talk to the data you or your users care about
-
-✅ Integrate third-party rest API services
+✅ Integrate third-party rest API services.
 
 ✅ Turn any Python functions into tools an Ai Agent can run with queries like 'what are my recent documents?' or 'What new movies are out?'
 
-✅ Chat with Django User data through standard Django queries and without the need for vector embeddings (although you *can* use them)
+✅ Chat with Django User data through standard Django queries and without the need for vector embeddings (although you *can* use them).
 
-✅ Easily switch LLMs to upgrade the effectiveness of your agents
+✅ Easily switch LLMs to upgrade the effectiveness of your agents.
 
-✅ Leverage RBAC (role-based access control) within any Django or Python project
+✅ Leverage RBAC (role-based access control) within any Django or Python project.
 
-✅ Create a Super(visor) Agent that controls other agents
+✅ Create a Super(visor) Agent that controls other agents.
 
-✅ Lock down access to what a User can or cannot do
+✅ Lock down access to what a User can or cannot do.
 
 ✅ Add guardrails to ensure an Agent can't do anything it shouldn't (e.g. create, update, read, search, list, share, or delete any data)
 
 ✅ and more.
 
-Topics covered:
+Functions covered:
 
-➕ Integrating Django with LangGraph for building Ai Agents (it's crazy easy)
+➕ Integrating Django with LangGraph for building Ai Agents (it's crazy easy).
 
-➕ Django ORM fundamentals
+➕ Django ORM fundamentals.
 
-➕ Django Model design basics with database syncing (migrations)
+➕ Django Model design basics with database syncing (migrations).
 
-➕ Django Users & Permission Fundamentals
+➕ Django Users & Permission Fundamentals.
 
-➕ Creating LangChain tools for LangGraph agents
+➕ Creating LangChain tools for LangGraph agents.
 
-➕ LangGraph Supervisor Agents
+➕ LangGraph Supervisor Agents.
 
-➕ Permit.io RBAC for powerful and granular control over user and Ai Agent access
+➕ Permit.io RBAC for powerful and granular control over user and Ai Agent access.
 
-➕ Multi-agent integration
+➕ Multi-agent integration.
 
-➕ Django + Jupyter integration for rapid prototyping
+➕ Django + Jupyter integration for rapid prototyping.
 
-➕ LangGraph-based lookups to your Django database
-
+➕ LangGraph-based lookups to your Django database.
